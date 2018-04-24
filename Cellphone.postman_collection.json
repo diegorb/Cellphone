@@ -13,16 +13,19 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:3000/api/cellphones/5ade6684af63b426b41be482",
+					"raw": "http://35.190.175.220:3000/api/cellphones/5ade77204beb082a7e1e4820",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"35",
+						"190",
+						"175",
+						"220"
 					],
 					"port": "3000",
 					"path": [
 						"api",
 						"cellphones",
-						"5ade6684af63b426b41be482"
+						"5ade77204beb082a7e1e4820"
 					]
 				},
 				"description": ""
@@ -69,10 +72,13 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/register",
+					"raw": "http://35.190.175.220:3000/api/register",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"35",
+						"190",
+						"175",
+						"220"
 					],
 					"port": "3000",
 					"path": [
@@ -91,10 +97,13 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:3000/api/cellphones",
+					"raw": "http://35.190.175.220:3000/api/cellphones",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"35",
+						"190",
+						"175",
+						"220"
 					],
 					"port": "3000",
 					"path": [
@@ -146,16 +155,19 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/cellphones/5ade6684af63b426b41be482",
+					"raw": "http://35.190.175.220:3000/api/cellphones/5ade77204beb082a7e1e4820",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"35",
+						"190",
+						"175",
+						"220"
 					],
 					"port": "3000",
 					"path": [
 						"api",
 						"cellphones",
-						"5ade6684af63b426b41be482"
+						"5ade77204beb082a7e1e4820"
 					]
 				},
 				"description": ""
@@ -169,10 +181,13 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:3000/api/cellphones/5ade6684af63b426b41be482",
+					"raw": "http://35.190.175.220:3000/api/cellphones/5ade6684af63b426b41be482",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"35",
+						"190",
+						"175",
+						"220"
 					],
 					"port": "3000",
 					"path": [
@@ -192,10 +207,13 @@
 				"header": [],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:3000/api/cellphones/5ade65eef4db5c2428e10f48",
+					"raw": "http://35.190.175.220:3000/api/cellphones/5ade65eef4db5c2428e10f48",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"35",
+						"190",
+						"175",
+						"220"
 					],
 					"port": "3000",
 					"path": [
