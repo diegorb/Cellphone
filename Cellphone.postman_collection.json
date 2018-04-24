@@ -1,0 +1,212 @@
+{
+	"info": {
+		"name": "Cellphone",
+		"_postman_id": "183b23f9-e192-db89-9c5d-b4782a0275e2",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Find Cellphone",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/cellphones/5ade6684af63b426b41be482",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cellphones",
+						"5ade6684af63b426b41be482"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Register cellphone",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "model",
+							"value": "Mate 10",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "brand",
+							"value": "Huawei",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "16000$",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "release",
+							"value": "2018",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"register"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Cellphones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/cellphones",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cellphones"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update cellphone",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "model",
+							"value": "Iphone X",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "brand",
+							"value": "Apple",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "22000$",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "release",
+							"value": "2017",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/cellphones/5ade6684af63b426b41be482",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cellphones",
+						"5ade6684af63b426b41be482"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete cellphone",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/cellphones/5ade6684af63b426b41be482",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cellphones",
+						"5ade6684af63b426b41be482"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Find cellphone",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/cellphones/5ade65eef4db5c2428e10f48",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"cellphones",
+						"5ade65eef4db5c2428e10f48"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
